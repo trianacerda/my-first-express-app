@@ -11,7 +11,7 @@ it("gets the animals endpoint", async () => {
   expect(response.body).toEqual(data);
 });
 
-it("gets the anima show endpoint", async () => {
+it("gets the animal show endpoint", async () => {
   const response = await request.get("/animals/1");
 
   expect(response.status).toBe(200);
